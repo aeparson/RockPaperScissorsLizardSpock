@@ -5,8 +5,8 @@
 
 <div display="flex">
 <kbd>
-<img src="images/game1.png" width="200" height="200">
-<img src="images/game2.png" width="200" height="200">
-<img src="images/game3.png" width="200" height="200">
+<img src="images/game1.png" width="250" height="250">
+<img src="images/game2.png" width="250" height="250">
+<img src="images/game3.png" width="250" height="250">
 </kbd>
 </div>
