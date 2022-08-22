@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 4em;
 }
 
 button {
@@ -21,7 +21,7 @@ button {
 }
 
 #result {
-    width: 50%;
+    width: 75%;
     margin: auto;
     font-size: 3em;
     color: blue;
@@ -37,7 +37,5 @@ button {
 #game {
     display: flex;
     flex-direction: column;
-
-
-
+    justify-content: space-between;
 }
