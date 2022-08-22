@@ -1,6 +1,7 @@
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
+    background-color: #eeedf7;
 }
 
 h1 {
@@ -38,4 +39,5 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-content: stretch;
 }
