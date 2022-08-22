@@ -77,7 +77,7 @@ const getResult = () => {
         result = "DRATS! Paper disproves Spock!"
     } else if (computerChoice == "Spock" && playerChoice == "scissors") {
         result = "BAZINGA! Spock smashes scissors!"
-    } else {
+    } else if (computerChoice == "Spock" && playerChoice == "lizard"){
         result = "DRATS! Lizard poisons Spock!"
     }
     resultDisplay.innerHTML = result;
