@@ -38,47 +38,48 @@ const generateComputerChoice = () => {
 
 const getResult = () => {
     if (computerChoice === playerChoice) {
-        resultDisplay.innerHTML = "DRAW";
+        result = "DRAW";
     } else if (computerChoice == "rock" && playerChoice == "paper") {
-        resultDisplay.innerHTML = "YOU WIN! Paper covers rock!"
+        result = "YOU WIN! Paper covers rock!"
     } else if (computerChoice == "rock" && playerChoice == "scissors") {
-        resultDisplay.innerHTML = "BAZINGA! Rock crushes scissors!"
+        result = "BAZINGA! Rock crushes scissors!"
     } else if (computerChoice == "rock" && playerChoice == "lizard") {
-        resultDisplay.innerHTML = "BAZINGA! Rock crushes lizard!"
+        result = "BAZINGA! Rock crushes lizard!"
     } else if (computerChoice == "rock" && playerChoice == "spock") {
-        resultDisplay.innerHTML = "YOU WIN! Spock vaporizes rock!"
+        result = "YOU WIN! Spock vaporizes rock!"
     } else if (computerChoice == "paper" && playerChoice == "rock") {
-        resultDisplay.innerHTML = "BAZINGA! Paper covers rock!"
+        result = "BAZINGA! Paper covers rock!"
     } else if (computerChoice == "paper" && playerChoice == "scissors") {
-        resultDisplay.innerHTML = "YOU WIN! Scissors cut paper!"
+        result = "YOU WIN! Scissors cut paper!"
     } else if (computerChoice == "paper" && playerChoice == "lizard") {
-        resultDisplay.innerHTML = "YOU WIN! Lizard eats paper!"
+        result = "YOU WIN! Lizard eats paper!"
     } else if (computerChoice == "paper" && playerChoice == "spock") {
-        resultDisplay.innerHTML = "BAZINGA! Paper disproves Spock!"
+        result = "BAZINGA! Paper disproves Spock!"
     } else if (computerChoice == "scissors" && playerChoice == "rock") {
-        resultDisplay.innerHTML = "YOU WIN! Rock smashes scissors!"
+        result = "YOU WIN! Rock smashes scissors!"
     } else if (computerChoice == "scissors" && playerChoice == "paper") {
-        resultDisplay.innerHTML = "BAZINGA! Scissors cuts paper!"
+        result = "BAZINGA! Scissors cuts paper!"
     } else if (computerChoice == "scissors" && playerChoice == "lizard") {
-        resultDisplay.innerHTML = "YOU WIN! Scissors decapitates lizard!"
+        result = "YOU WIN! Scissors decapitates lizard!"
     } else if (computerChoice == "scissors" && playerChoice == "spock") {
-        resultDisplay.innerHTML = "BAZINGA! Spock smashes scissors!"
+        result = "BAZINGA! Spock smashes scissors!"
     } else if (computerChoice == "lizard" && playerChoice == "rock") {
-        resultDisplay.innerHTML = "YOU WIN! Rock crushes lizard!"
+        result = "YOU WIN! Rock crushes lizard!"
     } else if (computerChoice == "lizard" && playerChoice == "paper") {
-        resultDisplay.innerHTML = "BAZINGA! Lizard eats paper!"
+        result = "BAZINGA! Lizard eats paper!"
     } else if (computerChoice == "lizard" && playerChoice == "scissors") {
-        resultDisplay.innerHTML = "YOU WIN! Scissors decapitates lizard!"
+        result = "YOU WIN! Scissors decapitates lizard!"
     } else if (computerChoice == "lizard" && playerChoice == "spock") {
-        resultDisplay.innerHTML = "BAZINGA! Lizard poisons Spock!"
+        result = "BAZINGA! Lizard poisons Spock!"
     } else if (computerChoice == "spock" && playerChoice == "rock") {
-        resultDisplay.innerHTML = "BAZINGA! Spock vaporizes rock!"
+        result = "BAZINGA! Spock vaporizes rock!"
     } else if (computerChoice == "spock" && playerChoice == "paper") {
-        resultDisplay.innerHTML = "YOU WIN! Paper disproves Spock!"
+        result = "YOU WIN! Paper disproves Spock!"
     } else if (computerChoice == "spock" && playerChoice == "scissors") {
-        resultDisplay.innerHTML = "BAZINGA! Spock smashes scissors!"
+        result = "BAZINGA! Spock smashes scissors!"
     } else {
-        resultDisplay.innerHTML = "YOU WIN! Lizard poisons Spock!"
+        result = "YOU WIN! Lizard poisons Spock!"
     }
+    resultDisplay.innerHTML = result;
 
 }
