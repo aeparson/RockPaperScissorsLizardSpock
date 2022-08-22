@@ -1,6 +1,13 @@
-const computerChoice = document.getElementById('computer-choice')
-const userChoice = document.getElementById('user-choice')
+const computerChoiceDisplay = document.getElementById('computer-choice')
+const userChoiceDisplay = document.getElementById('user-choice')
 const resultDisplay = document.getElementById('result')
 
 const possibleChoices = document.qgetElementsByClassName('button')
+let userChoice
+
+possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (event) => {
+    userChoice = event.target.id
+    userChoiceDisplay.innerHTML = userChoice
+    generateComputerChoice()
+}))
 
