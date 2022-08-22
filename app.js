@@ -12,6 +12,7 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
     playerChoiceDisplay.innerHTML = playerChoice
     generateComputerChoice()
     getResult()
+    console.log(playerChoice)
 }))
 
 const generateComputerChoice = () => {
