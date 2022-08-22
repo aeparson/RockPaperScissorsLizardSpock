@@ -1,0 +1,29 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+#choices {
+    width: 30%;
+    margin:auto;
+    display:block;
+    align-items:center;
+    font-size: 2em;
+}
+
+#result {
+    width: 50%;
+    margin: auto;
+    font-size: 3em;
+    color: blue;
+    padding: 10px;
+}
+
+#buttons {
+    width: 50%;
+    margin: auto;
+}

@@ -3,20 +3,33 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="app.css">
     <title>Rock, Paper, Scissors, Lizard, Spock</title>
 </head>
 
 <body>
-    <h2>Computer Choice: <span id="computer-choice"></span></h2>
-    <h2>Player Choice: <span id="player-choice"></span></h2>
-    <h2>Result: <span id="result"></span></h2>
+    <h1>Rock, Paper, Scissors, Lizard, Spock</h1>
+    <br>
+    <section id="game">
+        <div id="choices">
+            <h2>Sheldon</h2>
+            <span id="computer-choice"></span>
+            <h2>Player</h2>
+            <span id="player-choice"></span>
+        </div>
+        <br>
+        <div id="result">
+            <h2><span id="result"></span></h2>
+        </div>
 
-    <button id="rock" name="choiceButton">rock</button>
-    <button id="paper" name="choiceButton">paper</button>
-    <button id="scissors" name="choiceButton">scissors</button>
-    <button id="lizard" name="choiceButton">lizard</button>
-    <button id="spock" name="choiceButton">spock</button>
-
+        <div id="buttons">
+            <button id="rock" name="choiceButton">rock</button>
+            <button id="paper" name="choiceButton">paper</button>
+            <button id="scissors" name="choiceButton">scissors</button>
+            <button id="lizard" name="choiceButton">lizard</button>
+            <button id="spock" name="choiceButton">spock</button>
+        </div>
+    </section>
 
     <script src="app.js" charset="utf-8"></script>
 </body>
